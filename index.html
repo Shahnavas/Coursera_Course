@@ -1,50 +1,37 @@
-<section class="features-main my-2">
-  <h2 class="md text-center my-2">Our Menu</h2>
-  <div class="container grid grid-3">
-    <div class="card flex">
-      <div>
-        <button>chicken</button>
-      </div>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti amet, molestias accusantium minima excepturi illo asperiores placeat modi tempore debitis nisi, culpa ipsa saepe totam </p>
-    </div>
-    <div class="card flex">
-      <div>
-        <button>chicken</button>
-      </div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, laboriosam.</p>
-    </div>
-    <div class="card flex">
-      <div>
-        <button>chicken</button>
-      </div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, laboriosam.</p>
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
 
+<title>Assigment solution for module 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<h1>Our Menu</h1>
+
+
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name1">Chicken</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
   </div>
-</section>
-@media (max-width: 768px) {
-    .features-main .grid > *:first-child {
-        grid-column: 1 / span 2;
-    }
-    .features-main .grid > *:nth-child(2) {
-        grid-template-columns: 1fr 2fr
-    }
-    .features-main .grid > *:last-child {
-        grid-column: 1 / span 3;
-    }
-}
 
-/*  Mobile  */
-@media (max-width: 500px) {
-    .grid,
-    .features-main .grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+   		<p class="content-name name2">Beef</p>
+   		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
+  </div>
 
-    .features-main .grid > *:first-child,
-    .features-main .grid > *:nth-child(2),
-    .features-main .grid > *:last-child {
-            grid-column: 1;
-    }
-}
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name3">Sushi</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>	
+  </div>
+
+</body>
+</html>
